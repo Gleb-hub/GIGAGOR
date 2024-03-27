@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "gigagor"
+version = "0.1.0"
+description = ""
+authors = ["gl_epka <nechaevgleb@inbox.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
