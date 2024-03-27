@@ -51,11 +51,7 @@ def black(session: Session) -> None:
 def lint(session: Session) -> None:
     """Lint using flake8."""
     args = session.posargs or locations
-    install_with_constraints(
-        session,
-        "flake8",
-        "flake8-black"
-    )
+    install_with_constraints(session, "flake8", "flake8-black")
     session.run("flake8", *args)
 
 

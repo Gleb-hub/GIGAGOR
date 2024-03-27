@@ -1,7 +1,7 @@
 import click.testing
 import pytest
 
-from gigagor import console
+from src.gigagor import console
 
 
 @pytest.fixture
